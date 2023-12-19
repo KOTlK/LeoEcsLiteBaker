@@ -1,0 +1,15 @@
+﻿{
+  "name": "com.kotlk.ecslitebaker",
+  "version": "0.1.0",
+  "displayName": "LeoEcsLiteBaker",
+  "description": "Tool for baking components into ecs world",
+  "unity": "2021.3",
+  "author": {
+    "name": "Kotlk",
+    "email": "rojuty@gmail.com"
+  },
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/KOTlK/LeoEcsLiteBaker.git"
+  }
+}
