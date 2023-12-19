@@ -517,8 +517,7 @@ GameObject:
   - component: {fileID: 779619116}
   - component: {fileID: 779619115}
   - component: {fileID: 779619114}
-  - component: {fileID: 779619113}
-  - component: {fileID: 779619112}
+  - component: {fileID: 779619119}
   m_Layer: 0
   m_Name: Point
   m_TagString: Untagged
@@ -526,35 +525,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &779619112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 779619111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3141886ee5d740b2a6dd2ba2d99cb0f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Origin:
-    Transform: {fileID: 779619118}
---- !u!114 &779619113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 779619111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98419e54fba141d3a2d176a747e3f01d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Origin:
-    Speed: 3
-    Direction: {x: 1, y: 0, z: 0}
 --- !u!114 &779619114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -655,6 +625,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &779619119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779619111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96731f54942840759396a4f1ddbcc034, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FirstComponent:
+    Speed: 3
+    Direction: {x: 1, y: 0, z: 0}
+  SecondComponent:
+    Transform: {fileID: 779619118}
 --- !u!1 &972601063
 GameObject:
   m_ObjectHideFlags: 0

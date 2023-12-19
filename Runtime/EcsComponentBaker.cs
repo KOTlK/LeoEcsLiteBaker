@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace LeoEcsLiteBaker.Runtime
 {
+    [RequireComponent(typeof(EntityBaker))]
     public abstract class EcsComponentBaker : MonoBehaviour
     {
         public void Bake(EcsWorld world, int entity)

@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace LeoEcsLiteBaker.Runtime
 {
+    [DisallowMultipleComponent]
     public class EntityBaker : MonoBehaviour
     {
         [SerializeField] private bool _deleteAfterBake;
